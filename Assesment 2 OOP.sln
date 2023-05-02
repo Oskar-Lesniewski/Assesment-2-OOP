@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assesment 2 OOP", "CMP1903M A01 2223\Assesment 2 OOP.csproj", "{1A2F9CA1-E6D8-4662-B3E5-32190DD347C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assesment 2 OOP", "Assesment 2 OOP\Assesment 2 OOP.csproj", "{1A2F9CA1-E6D8-4662-B3E5-32190DD347C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
