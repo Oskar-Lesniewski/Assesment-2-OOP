@@ -5,14 +5,13 @@ namespace Assesment2
 {
     class Tutorial
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Menu();
         }
 
         public static void Menu()
         {
-
             // Shuffle the pack           
             while (true)
             {
@@ -70,7 +69,7 @@ namespace Assesment2
                 // Catching the error, if there is one
                 catch
                 {
-                    Console.WriteLine("\nInvalid input try again.Program\n");
+                    Console.WriteLine("\nInvalid input try again.\n");
                     continue;
                 }
                 break;

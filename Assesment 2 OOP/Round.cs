@@ -2,7 +2,7 @@
 
 namespace Assesment2
 {
-    internal class Round
+    class Round
     {
         public static void Round3(float Temp, float Number1, float Number2, string Operator, int Difficulty, int Correct, int Wrong)
         {

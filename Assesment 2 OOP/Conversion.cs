@@ -1,6 +1,6 @@
 ﻿namespace Assesment2
 {
-    internal class Conversion
+    class Conversion
     {
         public static void Conversion3(string Operator, float Number1, float Number2, int Difficulty, int Correct, int Wrong)
         {

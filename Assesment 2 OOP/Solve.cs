@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Assesment2
 {
-    internal class Solve
+    class Solve
     {
         public static void Solving(float Guess, float Answer, int Difficulty, int Correct, int Wrong)
         {
@@ -18,7 +18,11 @@ namespace Assesment2
                 Console.WriteLine("\nThats Not Right, Try A New One!\n");
                 Console.WriteLine("The Answer Was " + Answer);
             }
-            // Error handling to make sure the user selects the right amount of extra cards they want dealt
+            Continue(Difficulty, Wrong, Correct);
+        }
+
+        private static void Continue(int Difficulty, int Correct, int Wrong)
+        {
             while (true)
             {
                 try
@@ -44,11 +48,15 @@ namespace Assesment2
                 }
                 catch
                 {
-                    Console.WriteLine("Invalid input try again.Pack");
+                    Console.WriteLine("Invalid input try again.");
                     continue;
                 }
                 break;
             }
         }
+
+            // Error handling to make sure the user selects the right amount of extra cards they want dealt
+            
+        
     }
 }

@@ -3,7 +3,7 @@
 namespace Assesment2
 {
     // Testing class, prints out the pack after each manipulation to make sure everything is working
-    public class Testing
+    class Testing
     {
         public static void mainTest()
         {

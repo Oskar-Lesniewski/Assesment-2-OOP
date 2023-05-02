@@ -2,7 +2,7 @@
 
 namespace Assesment2
 {
-    internal class Guess
+    class Guess
     {
         public static void Guess3(float Answer, float Number1, float Number2, string Operator, int Difficulty, int Correct, int Wrong)
         {
