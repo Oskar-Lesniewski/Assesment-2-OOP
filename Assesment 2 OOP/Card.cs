@@ -1,17 +1,17 @@
 ﻿namespace Assesment2
 {
+    // This Class Houses The Cards.
     class Card
     {
-        //Base for the Card class.
-        //Value: numbers 1 - 13
-        //Suit: numbers 1 - 4
-        //The 'set' methods for these properties could have some validation
+        //Base For The Card Class.
+        //Value: Numbers 1 - 13.
+        //Suit: Numbers 1 - 4.
         public int Value { get; set; }
         public string Suit { get; set; }
-        // val determined in the Pack class
+        // Val Determined In The Pack Class.
         public Card(int val)
         {
-            // Generating the corresponding cards to values and suits
+            // Generating The Corresponding Cards To Values And Suits.
             Value = (val % 13) + 1;
             if (val / 13 == 0)
             {
@@ -30,7 +30,7 @@
                 Suit = "Spades";
             }
         }
-        // Custom added method to display Ace, Jack, Queen or King as well as making the numbers in the same format
+        // Custom Added Method To Display Ace, Jack, Queen Or King As Well As Making The Numbers In The Same Format.
         public string Display()
         {
             if (Value == 1)
@@ -54,7 +54,5 @@
                 return Value + " of " + Suit;
             }
         }
-
     }
-
 }

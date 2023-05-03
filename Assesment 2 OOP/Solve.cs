@@ -3,9 +3,11 @@ using System.IO;
 
 namespace Assesment2
 {
+    // This Class Solves The Questions And Compares The Guess To The Answer.
     class Solve
     {
-        public static void Solving(float Guess, float Answer, int Difficulty, int Correct, int Wrong)
+        // Solving Method.
+        public static void Solving(float Guess, float Answer, int Difficulty, int Correct, int Wrong, int Test)
         {
             if (Guess == Answer)
             {
@@ -20,9 +22,10 @@ namespace Assesment2
             }
             Continue(Difficulty, Wrong, Correct);
         }
-
+        // Continue Method.
         private static void Continue(int Difficulty, int Correct, int Wrong)
         {
+            // While Loop To Handle Errors.
             while (true)
             {
                 try
@@ -37,7 +40,7 @@ namespace Assesment2
                     {
                         if (amount == 1)
                         {
-                            Pack.shuffleCardPack(Difficulty, Correct, Wrong);
+                            Pack.shuffleCardPack(Difficulty, Correct, Wrong, 0);
                         }
                         if (amount == 2)
                         {
@@ -53,10 +56,6 @@ namespace Assesment2
                 }
                 break;
             }
-        }
-
-            // Error handling to make sure the user selects the right amount of extra cards they want dealt
-            
-        
+        } 
     }
 }
